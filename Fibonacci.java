@@ -40,6 +40,7 @@ public static int fib (int n) {
 
 
 	public static int fibRek (int n) {
+		//Wrong result (e.g. fib(8)=21 but in you solution it is 22)
 		if (n == 0 )
 			return 0;
 		else if (n>1)
